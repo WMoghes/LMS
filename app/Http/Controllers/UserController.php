@@ -6,15 +6,15 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class CategoryController extends Controller
+class UserController extends Controller
 {
     public function index()
     {
-        return view('admin.categories.index');
+        return view('admin.users.index');
     }
 
     public function create()
     {
-        return view('admin.categories.create_category');
+        return view('admin.users.create_user');
     }
 }
