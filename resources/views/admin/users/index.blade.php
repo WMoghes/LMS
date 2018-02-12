@@ -31,7 +31,8 @@
                                         @include('admin.actions', [
                                             'show' => '#',
                                             'edit' => '#',
-                                            'remove' => '#'
+                                            'remove' => '#',
+                                            'makeAdmin' => '#'
                                         ])
                                     </td>
                                 </tr>

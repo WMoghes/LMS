@@ -25,7 +25,6 @@
                                 <td>Doe</td>
                                 <td>
                                     @include('admin.actions', [
-                                        'show' => '#',
                                         'edit' => '#',
                                         'remove' => '#'
                                     ])

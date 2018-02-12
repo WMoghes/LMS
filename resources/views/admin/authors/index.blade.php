@@ -8,6 +8,7 @@
                     <div class="panel-heading">Authors</div>
 
                     <div class="panel-body">
+                        @include('admin.message')
                         <a href="{{ route('create_author') }}" class="btn btn-primary pull-right" style="margin-bottom: 10px">Create new author</a>
                         <table class="table table-bordered">
                             <thead>
@@ -20,19 +21,24 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>John</td>
-                                    <td>Doe</td>
-                                    <td>john@example.com</td>
-                                    <td>john@example.com</td>
-                                    <td>
-                                        @include('admin.actions', [
-                                            'show' => '#',
-                                            'edit' => '#',
-                                            'remove' => '#'
-                                        ])
-                                    </td>
-                                </tr>
+                                @if (isset($authors) && count($authors))
+                                    @foreach($authors as $author)
+                                        <tr>
+                                            <td>{{ $author->id }}</td>
+                                            <td>{{ $author->author_name }}</td>
+                                            <td>{{ $author->location }}</td>
+                                            <td>{{ $author->created_at }}</td>
+                                            <td>
+                                                @include('admin.actions', [
+                                                    'edit' => route('edit_author', $author->id),
+                                                    'remove' => route('remove_author', $author->id)
+                                                ])
+                                            </td>
+                                        </tr>
+                                    @endforeach
+                                @else
+                                    <h3>There's no data right now.</h3>
+                                @endif
                             </tbody>
                         </table>
                     </div>
