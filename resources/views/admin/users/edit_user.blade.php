@@ -7,14 +7,15 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Update user info</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
+                        <form class="form-horizontal" role="form" method="POST" action="{{ route('update_user', CheckVariables($user->id)) }}">
                             {{ csrf_field() }}
+                            {{ method_field('put') }}
 
                             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                                 <label for="name" class="col-md-4 control-label">Name</label>
 
                                 <div class="col-md-6">
-                                    <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
+                                    <input id="name" type="text" class="form-control" name="name" value="{{ CheckVariables($user->name) }}">
 
                                     @if ($errors->has('name'))
                                         <span class="help-block">
@@ -28,7 +29,7 @@
                                 <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
                                 <div class="col-md-6">
-                                    <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+                                    <input id="email" type="email" class="form-control" name="email" value="{{ CheckVariables($user->email) }}">
 
                                     @if ($errors->has('email'))
                                         <span class="help-block">
@@ -42,7 +43,7 @@
                                 <label for="mobile" class="col-md-4 control-label">Mobile</label>
 
                                 <div class="col-md-6">
-                                    <input id="mobile" type="text" class="form-control" name="mobile" value="{{ old('mobile') }}">
+                                    <input id="mobile" type="text" class="form-control" name="mobile" value="{{ CheckVariables($user->mobile) }}">
 
                                     @if ($errors->has('mobile'))
                                         <span class="help-block">
@@ -56,7 +57,7 @@
                                 <label for="address" class="col-md-4 control-label">Address</label>
 
                                 <div class="col-md-6">
-                                    <input id="address" type="text" class="form-control" name="address" value="{{ old('address') }}">
+                                    <input id="address" type="text" class="form-control" name="address" value="{{ CheckVariables($user->address) }}">
 
                                     @if ($errors->has('address'))
                                         <span class="help-block">
@@ -70,7 +71,7 @@
                                 <label for="birthdate" class="col-md-4 control-label">Birth date</label>
 
                                 <div class="col-md-6">
-                                    <input id="birthdate" type="date" class="form-control" name="birthdate" value="{{ old('birthdate') }}">
+                                    <input id="birthdate" type="date" class="form-control" name="birthdate" value="{{ CheckVariables($user->birthdate) }}">
 
                                     @if ($errors->has('birthdate'))
                                         <span class="help-block">
@@ -112,7 +113,8 @@
                                 <label for="isAdmin" class="col-md-4 control-label">Is Admin</label>
 
                                 <div class="col-md-6">
-                                    <input id="isAdmin" type="checkbox" class="form-control" name="isAdmin">
+                                    <input id="isAdmin" type="checkbox" class="form-control" name="isAdmin"
+                                    {{ CheckVariables($user->role_id) == 1 ? 'checked' : null }}>
                                 </div>
                             </div>
 

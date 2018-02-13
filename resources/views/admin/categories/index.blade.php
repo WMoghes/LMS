@@ -8,6 +8,7 @@
                     <div class="panel-heading">Categories</div>
 
                     <div class="panel-body">
+                        @include('admin.message')
                         <a href="{{ route('create_category') }}" class="btn btn-primary pull-right" style="margin-bottom: 10px">Create new category</a>
                         <table class="table table-bordered">
                             <thead>
@@ -19,17 +20,22 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>John</td>
-                                <td>Doe</td>
-                                <td>Doe</td>
-                                <td>
-                                    @include('admin.actions', [
-                                        'edit' => '#',
-                                        'remove' => '#'
-                                    ])
-                                </td>
-                            </tr>
+                            @if (isset($categories) && count($categories))
+                                @foreach($categories as $category)
+                                    <tr>
+                                        <td>{{ $category->id }}</td>
+                                        <td>{{ $category->category_name }}</td>
+                                        <td>{{ $category->created_at }}</td>
+                                        <td>
+                                            @include('admin.actions', [
+                                                'remove' => route('remove_category', $category->id)
+                                            ])
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            @else
+                                <h3>There's no data right now.</h3>
+                            @endif
                             </tbody>
                         </table>
                     </div>

@@ -20,6 +20,13 @@ Route::get('books_borrowed', 'BookBorrowedController@index')->name('books_borrow
 
 Route::get('users', 'UserController@index')->name('users');
 Route::get('create-user', 'UserController@create')->name('create_user');
+Route::put('update-user/{id}', 'UserController@update')->name('update_user');
+Route::post('store-user', 'UserController@store')->name('store_user');
+Route::get('edit-user/{id}', 'UserController@edit')->name('edit_user');
+Route::get('make-admin-user/{id}', 'UserController@makeAdmin')->name('make_admin_user');
+Route::get('remove-user/{id}', 'UserController@remove')->name('remove_user');
 
 Route::get('categories', 'CategoryController@index')->name('categories');
 Route::get('create-category', 'CategoryController@create')->name('create_category');
+Route::post('store-category', 'CategoryController@store')->name('store_category');
+Route::get('remove-category/{id}', 'CategoryController@remove')->name('remove_category');
