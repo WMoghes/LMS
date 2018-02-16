@@ -3,3 +3,4 @@
 <li><a href="{{ route('books_borrowed') }}">Books Borrowed</a></li>
 <li><a href="{{ route('users') }}">Users</a></li>
 <li><a href="{{ route('categories') }}">Categories</a></li>
+<li><a href="{{ route('settings') }}">Settings</a></li>

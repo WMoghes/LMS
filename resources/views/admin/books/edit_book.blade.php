@@ -5,7 +5,8 @@
         <div class="panel panel-default">
             <div class="panel-heading">Edit Book</div>
             <div class="panel-body">
-                <form class="form-horizontal" role="form" method="post" action="{{ route('update_book') }}">
+                <form class="form-horizontal" role="form" method="post" action="{{ route('update_book', CheckVariables($book->id)) }}"
+                      enctype="multipart/form-data">
                     {{ csrf_field() }}
                     {{ method_field('put') }}
 
@@ -43,8 +44,9 @@
                         <div class="col-md-6">
                             @if (isset($authors) && count($authors))
                                 <select class="form-control" id="author_name" name="author_name">
-                                    @foreach($authors as $author)
-                                        <option {{ CheckVariables($book->author_id) == $author->author_id ? 'selected' : null }}
+
+                                @foreach($authors as $author)
+                                        <option {{ $book->author_id == $author->id ? 'selected' : null }}
                                                 value="{{ $author->id }}">
                                             {{ $author->author_name }}
                                         </option>
@@ -135,6 +137,21 @@
                             @if ($errors->has('publication'))
                                 <span class="help-block">
                                         <strong>{{ $errors->first('publication') }}</strong>
+                                    </span>
+                            @endif
+                        </div>
+                    </div>
+
+                    <div class="form-group{{ $errors->has('description') ? ' has-error' : '' }}">
+                        <label for="description" class="col-md-4 control-label">Description</label>
+
+                        <div class="col-md-6">
+                            <input id="description" type="text" class="form-control" name="description"
+                                   value="{{ CheckVariables($book->description) }}">
+
+                            @if ($errors->has('description'))
+                                <span class="help-block">
+                                        <strong>{{ $errors->first('description') }}</strong>
                                     </span>
                             @endif
                         </div>

@@ -32,16 +32,7 @@ function getDefaultImage()
     return url('uploads/default-image.png');
 }
 
-function uploadImage($request)
-{
-    if ($file = $request) {
-        $filename = time() . '_' . $file->getClientOriginalName();
-        $file->move(url('uploads/images'), $filename);
-        return $filename;
-    }
-}
-
 function getImage($imageName)
 {
-    return url('uploads/images') . $imageName;
+    return url('uploads/images') . '/' . $imageName;
 }

@@ -5,14 +5,15 @@
         <div class="panel panel-default">
             <div class="panel-heading">Create New Book</div>
             <div class="panel-body">
-                <form class="form-horizontal" role="form" method="post" action="{{ route('store_book') }}">
+                <form class="form-horizontal" role="form" method="post" action="{{ route('store_book') }}"
+                      enctype="multipart/form-data">
                     {{ csrf_field() }}
 
                     <div class="form-group{{ $errors->has('code') ? ' has-error' : '' }}">
                         <label for="code" class="col-md-4 control-label">Book Code</label>
 
                         <div class="col-md-6">
-                            <input id="code" type="text" class="form-control" name="code" value="{{ old('code') }}">
+                            <input id="code" type="text" class="form-control" name="code" value="{{ old('code') }}" required>
 
                             @if ($errors->has('code'))
                                 <span class="help-block">
@@ -26,7 +27,7 @@
                         <label for="title" class="col-md-4 control-label">Book Title</label>
 
                         <div class="col-md-6">
-                            <input id="title" type="text" class="form-control" name="title" value="{{ old('title') }}">
+                            <input id="title" type="text" class="form-control" name="title" value="{{ old('title') }}" required>
 
                             @if ($errors->has('title'))
                                 <span class="help-block">
@@ -80,7 +81,7 @@
                         <label for="price" class="col-md-4 control-label">Book Price</label>
 
                         <div class="col-md-6">
-                            <input id="price" type="text" class="form-control" name="price" value="{{ old('price') }}">
+                            <input id="price" type="text" class="form-control" name="price" value="{{ old('price') }}" required>
 
                             @if ($errors->has('price'))
                                 <span class="help-block">
@@ -127,6 +128,20 @@
                             @if ($errors->has('publication'))
                                 <span class="help-block">
                                         <strong>{{ $errors->first('publication') }}</strong>
+                                    </span>
+                            @endif
+                        </div>
+                    </div>
+
+                    <div class="form-group{{ $errors->has('description') ? ' has-error' : '' }}">
+                        <label for="description" class="col-md-4 control-label">Description</label>
+
+                        <div class="col-md-6">
+                            <input id="description" type="text" class="form-control" name="description" value="{{ old('description') }}">
+
+                            @if ($errors->has('description'))
+                                <span class="help-block">
+                                        <strong>{{ $errors->first('description') }}</strong>
                                     </span>
                             @endif
                         </div>

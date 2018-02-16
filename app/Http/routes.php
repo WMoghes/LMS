@@ -20,7 +20,7 @@ Route::get('create-book', 'BookController@create')->name('create_book');
 Route::post('store-book', 'BookController@store')->name('store_book');
 Route::get('remove-book/{id}', 'BookController@remove')->name('remove_book');
 Route::get('edit-book/{id}', 'BookController@edit')->name('edit_book');
-Route::get('update-book/{id}', 'BookController@update')->name('update_book');
+Route::put('update-book/{id}', 'BookController@update')->name('update_book');
 
 Route::get('books_borrowed', 'BookBorrowedController@index')->name('books_borrowed');
 
@@ -37,3 +37,8 @@ Route::get('categories', 'CategoryController@index')->name('categories');
 Route::get('create-category', 'CategoryController@create')->name('create_category');
 Route::post('store-category', 'CategoryController@store')->name('store_category');
 Route::get('remove-category/{id}', 'CategoryController@remove')->name('remove_category');
+
+Route::get('settings', 'SettingController@index')->name('settings');
+Route::put('update-settings', 'SettingController@update')->name('update_settings');
+
+
