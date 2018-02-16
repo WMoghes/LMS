@@ -15,3 +15,7 @@
 @if (isset($removeAdmin))
     <a href="{{ $removeAdmin }}" class="btn btn-info">Remove Admin</a>
 @endif
+
+@if (isset($removeBlock))
+    <a href="{{ $removeBlock }}" class="btn btn-default"> {{ $BlockStatus == 0 ? 'Make Block' : 'Remove Block' }}</a>
+@endif

@@ -11,3 +11,37 @@ function CheckVariables($variables)
 {
     return isset($variables) ? $variables : null;
 }
+
+function getRole($id)
+{
+    $roles = [
+        1 => 'Admin',
+        2 => 'User',
+        3 => 'Supervisor'
+    ];
+    return $roles[$id];
+}
+
+function getBlocked($id)
+{
+    return $id == 1 ? 'Blocked' : 'Not Blocked';
+}
+
+function getDefaultImage()
+{
+    return url('uploads/default-image.png');
+}
+
+function uploadImage($request)
+{
+    if ($file = $request) {
+        $filename = time() . '_' . $file->getClientOriginalName();
+        $file->move(url('uploads/images'), $filename);
+        return $filename;
+    }
+}
+
+function getImage($imageName)
+{
+    return url('uploads/images') . $imageName;
+}

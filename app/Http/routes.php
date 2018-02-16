@@ -16,6 +16,12 @@ Route::put('update-author/{id}', 'AuthorController@update')->name('update_author
 Route::get('remove-author/{id}', 'AuthorController@remove')->name('remove_author');
 
 Route::get('books', 'BookController@index')->name('books');
+Route::get('create-book', 'BookController@create')->name('create_book');
+Route::post('store-book', 'BookController@store')->name('store_book');
+Route::get('remove-book/{id}', 'BookController@remove')->name('remove_book');
+Route::get('edit-book/{id}', 'BookController@edit')->name('edit_book');
+Route::get('update-book/{id}', 'BookController@update')->name('update_book');
+
 Route::get('books_borrowed', 'BookBorrowedController@index')->name('books_borrowed');
 
 Route::get('users', 'UserController@index')->name('users');
@@ -25,6 +31,7 @@ Route::post('store-user', 'UserController@store')->name('store_user');
 Route::get('edit-user/{id}', 'UserController@edit')->name('edit_user');
 Route::get('make-admin-user/{id}', 'UserController@makeAdmin')->name('make_admin_user');
 Route::get('remove-user/{id}', 'UserController@remove')->name('remove_user');
+Route::get('make-block/{id}', 'UserController@makeBlock')->name('make_block');
 
 Route::get('categories', 'CategoryController@index')->name('categories');
 Route::get('create-category', 'CategoryController@create')->name('create_category');

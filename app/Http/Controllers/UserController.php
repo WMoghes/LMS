@@ -85,4 +85,14 @@ class UserController extends Controller
         User::findOrFail($id)->delete();
         return redirect()->route('users')->withStatus('The user has been deleted');
     }
+
+    public function makeBlock($id)
+    {
+        $user = User::findOrFail($id);
+        $user->isBlocked = $user->isBlocked == 0 ? 1 : 0;
+        $user->update();
+
+        return redirect()->route('users')->withStatus('The user Blocked Status has been updated');
+    }
+
 }
