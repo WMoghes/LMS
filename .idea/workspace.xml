@@ -3,21 +3,50 @@
   <component name="ChangeListManager">
     <list default="true" id="2d127592-d53a-4500-8053-097405b7205e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Book.php" afterPath="$PROJECT_DIR$/app/Book.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Helpers/GeneralHelper.php" afterPath="$PROJECT_DIR$/app/Helpers/GeneralHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/actions.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/actions.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/authors/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/authors/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/books/create_book.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/books/create_book.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/books_borrowed/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/books_borrowed/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/composer.json" afterPath="$PROJECT_DIR$/vendor/intervention/image/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractColor.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractColor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractEncoder.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ChecksumCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ChecksumCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/IptcCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/IptcCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PsrResponseCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PsrResponseCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Constraint.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Constraint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Color.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Color.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BackupCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BackupCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/DestroyCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/DestroyCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/HeightenCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/HeightenCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/MaskCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/MaskCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/OpacityCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/OpacityCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCanvasCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCanvasCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/SharpenCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/SharpenCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/TrimCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/TrimCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/WidenCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/WidenCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Driver.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Font.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Font.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManagerStatic.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManagerStatic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel4.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel5.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLeague.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLeague.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Color.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Color.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BackupCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BackupCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/DestroyCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/DestroyCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FlipCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FlipCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/HeightenCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/HeightenCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCanvasCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCanvasCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/TrimCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/TrimCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/WidenCommand.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/WidenCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Decoder.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Decoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Driver.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Encoder.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/PolygonShape.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/PolygonShape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/intervention/image/src/config/config.php" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/config/config.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +83,8 @@
       <file leaf-file-name="edit_book.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/books/edit_book.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="152" column="19" lean-forward="false" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+            <state relative-caret-position="390">
+              <caret line="159" column="48" lean-forward="false" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
               <folding>
                 <element signature="e#8770#8791#0#HTML" expanded="true" />
                 <marker date="1518813131633" expanded="true" signature="9:22" ph="..." />
@@ -100,11 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload_files.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="547">
+              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -152,31 +191,6 @@
                 <marker date="1518813000144" expanded="true" signature="7098:7113" ph="..." />
                 <marker date="1518813000144" expanded="true" signature="7284:7310" ph="..." />
                 <marker date="1518813000144" expanded="true" signature="7624:7643" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/books/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-              <folding>
-                <marker date="1518812038327" expanded="true" signature="9:22" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="34:43" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="245:260" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="289:311" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1157:1170" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1220:1234" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1284:1302" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1352:1372" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1422:1436" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1486:1503" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1553:1568" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1618:1637" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1735:1968" ph="..." />
-                <marker date="1518812038327" expanded="true" signature="1753:1967" ph="..." />
               </folding>
             </state>
           </provider>
@@ -256,7 +270,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
         <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin_nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -277,7 +290,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/authors/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/books_borrowed/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
@@ -285,6 +297,9 @@
         <option value="$PROJECT_DIR$/app/Helpers/GeneralHelper.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/books/edit_book.blade.php" />
         <option value="$PROJECT_DIR$/app/Book.php" />
+        <option value="C:/xampp/htdocs/test/00/composer.json" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -716,7 +731,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Book&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Book.php&#10;BookController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;route&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;Gener&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;create&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/create_book.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/edit_author.blade.php&#10;author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;Autho&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;app&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/config/app.php&#10;index&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/index.blade.php&#10;Author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;Gen&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;inde&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/index.blade.php&#10;BookCon&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;actions&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;UserController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/UserController.php&#10;routes&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;action&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;CategoryController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/CategoryController.php&#10;AuthorController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;edit_author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/edit_author.blade.php&#10;helper&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;HomeController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/HomeController.php&#10;BookBorrowedController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookBorrowedController.php&#10;User&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/User.php" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/config/app.php&#10;composer&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/composer.json&#10;Book&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Book.php&#10;BookController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;route&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;Gener&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;create&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/create_book.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/edit_author.blade.php&#10;author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;Autho&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;index&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/index.blade.php&#10;Author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;Gen&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;inde&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/index.blade.php&#10;BookCon&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;actions&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;UserController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/UserController.php&#10;routes&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;action&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;CategoryController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/CategoryController.php&#10;AuthorController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;edit_author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/edit_author.blade.php&#10;helper&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;HomeController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/HomeController.php&#10;BookBorrowedController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookBorrowedController.php&#10;User&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/User.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -813,16 +828,15 @@
       <workItem from="1517690005736" duration="5530000" />
       <workItem from="1517777448372" duration="5703000" />
       <workItem from="1517946016591" duration="14000000" />
-      <workItem from="1518806912013" duration="6521000" />
+      <workItem from="1518806912013" duration="7079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32766000" />
+    <option name="totallyTimeSpent" value="33324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1318" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19897524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -833,7 +847,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8008439" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8008439" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -855,34 +869,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/BookBorrowed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Author.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="1465" column="20" lean-forward="false" selection-start-line="1465" selection-start-column="20" selection-end-line="1465" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -894,13 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1260,14 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
@@ -1406,10 +1383,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/xampp/htdocs/test/00/vendor/composer/autoload_files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/books/edit_book.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="152" column="19" lean-forward="false" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="159" column="48" lean-forward="false" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
           <folding>
             <element signature="e#8770#8791#0#HTML" expanded="true" />
             <marker date="1518813131633" expanded="true" signature="9:22" ph="..." />
@@ -1453,18 +1446,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/xampp/htdocs/test/00/vendor/composer/autoload_files.php">
+    <entry file="file://C:/xampp/htdocs/test/00/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+    <entry file="file://C:/xampp/htdocs/findRoom-master/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="145" column="41" lean-forward="true" selection-start-line="145" selection-start-column="41" selection-end-line="145" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding />
         </state>
       </provider>
