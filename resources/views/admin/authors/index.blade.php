@@ -1,15 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="col-md-10 col-md-offset-1">
-        <div class="panel panel-default">
-            <div class="panel-heading">Authors</div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">Authors</div>
 
-            <div class="panel-body">
-                @include('admin.message')
-                <a href="{{ route('create_author') }}" class="btn btn-primary pull-right" style="margin-bottom: 10px">Create new author</a>
-                <table class="table table-bordered">
-                    <thead>
+                <div class="panel-body">
+                    @include('admin.message')
+                    <a href="{{ route('create_author') }}" class="btn btn-primary pull-right" style="margin-bottom: 10px">Create new author</a>
+                    <table class="table table-bordered">
+                        <thead>
                         <tr>
                             <th>ID</th>
                             <th>Author Name</th>
@@ -17,8 +18,8 @@
                             <th>Created At</th>
                             <th>Actions</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         @if (isset($authors) && count($authors))
                             @foreach($authors as $author)
                                 <tr>
@@ -37,8 +38,9 @@
                         @else
                             <h3>There's no data right now.</h3>
                         @endif
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

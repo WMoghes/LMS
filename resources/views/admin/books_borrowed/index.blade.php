@@ -1,39 +1,41 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="col-md-10 col-md-offset-1">
-        <div class="panel panel-default">
-            <div class="panel-heading">Search</div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">Search</div>
 
-            <div class="panel-body">
-                @if (isset($allLists) && count($allLists))
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>Code</th>
-                            <th>Book Title</th>
-                            <th>Author Name</th>
-                            <th>Student Name</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        @foreach($allLists as $item)
+                <div class="panel-body">
+                    @if (isset($allLists) && count($allLists))
+                        <table class="table table-bordered">
+                            <thead>
                             <tr>
-                                <td>{{ $item->book->code }}</td>
-                                <td>
-                                    <a href="{{ route('show_book', $item->book->id) }}">
-                                        {{ $item->book->title }}
-                                    </a>
-                                </td>
-                                <td>{{ $item->book->author->author_name }}</td>
-                                <td>{{ $item->user->name }}</td>
+                                <th>Code</th>
+                                <th>Book Title</th>
+                                <th>Author Name</th>
+                                <th>Student Name</th>
                             </tr>
-                        @endforeach
-                        </tbody>
-                    </table>
-                @else
-                    <h3>There's no data right now.</h3>
-                @endif
+                            </thead>
+                            <tbody>
+                            @foreach($allLists as $item)
+                                <tr>
+                                    <td>{{ $item->book->code }}</td>
+                                    <td>
+                                        <a href="{{ route('show_book', $item->book->id) }}">
+                                            {{ $item->book->title }}
+                                        </a>
+                                    </td>
+                                    <td>{{ $item->book->author->author_name }}</td>
+                                    <td>{{ $item->user->name }}</td>
+                                </tr>
+                            @endforeach
+                            </tbody>
+                        </table>
+                    @else
+                        <h3>There's no data right now.</h3>
+                    @endif
+                </div>
             </div>
         </div>
     </div>
