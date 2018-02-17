@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d127592-d53a-4500-8053-097405b7205e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="BookBorrowedController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +72,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/guest_nav.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php" />
         <option value="$PROJECT_DIR$/app/BookBorrowed.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin_nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/student_nav.blade.php" />
@@ -90,6 +99,7 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php" />
       </list>
     </option>
   </component>
@@ -151,7 +161,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="BookController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;route&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;inde&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books_borrowed/index.blade.php&#10;list&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/list_books.blade.php&#10;USerC&#9;null&#9;null&#10;ProfileController&#9;null&#9;null&#10;edit_us&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/users/edit_user.blade.php&#10;index&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/index.blade.php&#10;BookBorrowedController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookBorrowedController.php&#10;HomeController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/HomeController.php&#10;Bookcon&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;edit&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/edit_book.blade.php&#10;create&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/create_book.blade.php&#10;Gen&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;BookCon&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;searchController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/SearchController.php&#10;stud&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/layouts/student_nav.blade.php&#10;Book&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Book.php&#10;Auth&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;SettingController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/SettingController.php&#10;nav&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/layouts/admin_nav.blade.php&#10;author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;app&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/config/app.php&#10;composer&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/composer.json&#10;Gener&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;Autho&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;Author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;actions&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;UserController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/UserController.php&#10;routes&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;action&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;CategoryController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/CategoryController.php&#10;AuthorController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;edit_author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/edit_author.blade.php&#10;helper&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;User&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/User.php" />
+    <property name="SearchEverywhereHistoryKey" value="Borrow&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookBorrowedController.php&#10;BookController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;route&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;inde&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books_borrowed/index.blade.php&#10;list&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/list_books.blade.php&#10;USerC&#9;null&#9;null&#10;ProfileController&#9;null&#9;null&#10;edit_us&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/users/edit_user.blade.php&#10;index&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/index.blade.php&#10;BookBorrowedController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookBorrowedController.php&#10;HomeController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/HomeController.php&#10;Bookcon&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;edit&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/edit_book.blade.php&#10;create&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/books/create_book.blade.php&#10;Gen&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;BookCon&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/BookController.php&#10;searchController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/SearchController.php&#10;stud&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/layouts/student_nav.blade.php&#10;Book&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Book.php&#10;Auth&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;SettingController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/SettingController.php&#10;nav&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/layouts/admin_nav.blade.php&#10;author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;app&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/config/app.php&#10;composer&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/composer.json&#10;Gener&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;Autho&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;Author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;actions&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;UserController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/UserController.php&#10;routes&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/routes.php&#10;action&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/actions.blade.php&#10;CategoryController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/CategoryController.php&#10;AuthorController&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Http/Controllers/AuthorController.php&#10;edit_author&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/resources/views/admin/authors/edit_author.blade.php&#10;helper&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/Helpers/GeneralHelper.php&#10;User&#9;FILE&#9;file://C:/xampp5.6/htdocs/LMS/app/User.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,18 +260,19 @@
       <workItem from="1517946016591" duration="14000000" />
       <workItem from="1518806912013" duration="25139000" />
       <workItem from="1518834546753" duration="862000" />
-      <workItem from="1518881255974" duration="392000" />
+      <workItem from="1518881255974" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52638000" />
+    <option name="totallyTimeSpent" value="52873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20408164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20408164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -636,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app_old.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -702,6 +705,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookBorrowedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
