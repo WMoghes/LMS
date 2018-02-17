@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Author;
 use App\Book;
+use App\BookBorrowed;
 use App\Category;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
@@ -63,6 +64,13 @@ class BookController extends Controller
     public function remove($id)
     {
         CheckVariableIfNullOrEmptyRedirectTo($id, 'books');
+
+        $checkBorrowed = BookBorrowed::where('book_id', $id)->get();
+
+        if (is_null($checkBorrowed) || count($checkBorrowed) < 1)
+            return redirect()->route('books')
+                    ->withStatus('You cannot delete this books because it is in borrowing list');
+
         Book::findOrFail($id)->delete();
         return redirect()->route('books')->withStatus('The book has been deleted');
     }
