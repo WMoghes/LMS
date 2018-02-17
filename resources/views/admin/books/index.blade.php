@@ -29,8 +29,8 @@
                                 <tr>
                                     <td>{{ $book->code }}</td>
                                     <td>{{ $book->title }}</td>
-                                    <td>{{ $book->author_id }}</td>
-                                    <td>{{ $book->category_id }}</td>
+                                    <td>{{ $book->author->author_name }}</td>
+                                    <td>{{ $book->category->category_name }}</td>
                                     <td>{{ $book->price }}</td>
                                     <td>{{ $book->quantity }}</td>
                                     <td>{{ $book->status }}</td>

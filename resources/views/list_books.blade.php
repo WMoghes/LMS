@@ -6,18 +6,17 @@
             <div class="panel-heading">Search</div>
 
             <div class="panel-body">
-                @if (isset($allLists) && count($allLists))
+                @if (isset($myLists) && count($myLists))
                     <table class="table table-bordered">
                         <thead>
                         <tr>
                             <th>Code</th>
                             <th>Book Title</th>
                             <th>Author Name</th>
-                            <th>Student Name</th>
                         </tr>
                         </thead>
                         <tbody>
-                        @foreach($allLists as $item)
+                        @foreach($myLists as $item)
                             <tr>
                                 <td>{{ $item->book->code }}</td>
                                 <td>
@@ -26,7 +25,6 @@
                                     </a>
                                 </td>
                                 <td>{{ $item->book->author->author_name }}</td>
-                                <td>{{ $item->user->name }}</td>
                             </tr>
                         @endforeach
                         </tbody>

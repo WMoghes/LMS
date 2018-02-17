@@ -49,7 +49,15 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     @if (Auth::check())
-                        @include('layouts.admin_nav')
+                        @if (Auth::user()->role_id == 1)
+                            @include('layouts.admin_nav')
+                        @elseif (Auth::user()->role_id == 2)
+                            @include('layouts.student_nav')
+                        @elseif (Auth::user()->role_id == 3)
+                            @include('layouts.supervisor_nav')
+                        @endif
+                    @else
+                        @include('layouts.guest_nav')
                     @endif
                 </ul>
 
